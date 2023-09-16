@@ -13,16 +13,30 @@ body{
     background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    align-content: space-between;
 }
+
 
 .header-nav{
     display: flex;
 }
+.nav-bar-logo{
+    display: flex;
+}
+.zocom-logo{
+    display: flex;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .nav-bar-buttons{
     display: flex;
+}.nav-bar-quote{
+    
 }
 .header-app-stores-buttons{
     display: flex;
